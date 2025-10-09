@@ -21,7 +21,8 @@ fun main() {
             continue
         }
 
-        val student = Student(id, name, course, mark)
+        val student = Student(id, name, course)
+        // set the mark separately
         println("Student created: $student")
     }
 
